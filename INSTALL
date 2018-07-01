@@ -1,0 +1,5 @@
+Building Votcoin
+
+See doc/build-*.md for instructions on building votcoind,
+the intended-for-services, no-graphical-interface, reference
+implementation of Votcoin.

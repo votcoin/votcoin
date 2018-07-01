@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Votcoin
+Comment=Votcoin P2P Cryptocurrency
+Comment[fr]=Votcoin, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=Votcoin, eşten eşe kriptografik sanal para birimi
+Exec=votcoin-qt %u
+Terminal=false
+Type=Application
+Icon=votcoin128
+MimeType=x-scheme-handler/votcoin;
+Categories=Office;Finance;

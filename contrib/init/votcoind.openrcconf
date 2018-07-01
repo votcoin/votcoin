@@ -1,0 +1,27 @@
+# /etc/conf.d/votcoind: config file for /etc/init.d/votcoind
+
+# Config file location
+#VOTCOIND_CONFIGFILE="/etc/votcoin/votcoin.conf"
+
+# What directory to write pidfile to?  (created and owned by $VOTCOIND_USER)
+#VOTCOIND_PIDDIR="/var/run/votcoind"
+
+# What filename to give the pidfile
+#VOTCOIND_PIDFILE="${VOTCOIND_PIDDIR}/votcoind.pid"
+
+# Where to write votcoind data (be mindful that the blockchain is large)
+#VOTCOIND_DATADIR="/var/lib/votcoind"
+
+# User and group to own votcoind process
+#VOTCOIND_USER="votcoin"
+#VOTCOIND_GROUP="votcoin"
+
+# Path to votcoind executable
+#VOTCOIND_BIN="/usr/bin/votcoind"
+
+# Nice value to run votcoind under
+#VOTCOIND_NICE=0
+
+# Additional options (avoid -conf and -datadir, use flags above)
+VOTCOIND_OPTS="-disablewallet"
+
